@@ -1,0 +1,228 @@
+.lwd-reports-wrap {
+	max-width: 1200px;
+}
+
+.lwd-reports-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 16px;
+	margin: 12px 0 20px;
+	flex-wrap: wrap;
+}
+
+.lwd-reports-filters {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+
+.lwd-reports-filters select {
+	min-width: 150px;
+}
+
+.lwd-summary-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 16px;
+	margin-bottom: 20px;
+}
+
+.lwd-summary-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+	padding: 18px 20px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.lwd-summary-card--blue { background: linear-gradient(135deg, #f0f6fc 0%, #fff 100%); }
+.lwd-summary-card--green { background: linear-gradient(135deg, #edfaef 0%, #fff 100%); }
+.lwd-summary-card--orange { background: linear-gradient(135deg, #fff8f0 0%, #fff 100%); }
+.lwd-summary-card--purple { background: linear-gradient(135deg, #f6f0fc 0%, #fff 100%); }
+
+.lwd-summary-card h3 {
+	margin: 0 0 8px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #50575e;
+}
+
+.lwd-summary-card .lwd-value {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #1d2327;
+}
+
+.lwd-summary-card .lwd-change {
+	margin-top: 6px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.lwd-change--up { color: #008a20; }
+.lwd-change--down { color: #d63638; }
+.lwd-change--flat { color: #646970; }
+
+.lwd-panel {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.lwd-panel-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+	margin-bottom: 18px;
+}
+
+.lwd-panel-header h2 {
+	margin: 0;
+	font-size: 16px;
+}
+
+.lwd-chart-toggle {
+	display: inline-flex;
+	border: 1px solid #c3c4c7;
+	border-radius: 6px;
+	overflow: hidden;
+}
+
+.lwd-chart-toggle a {
+	padding: 6px 12px;
+	text-decoration: none;
+	color: #50575e;
+	background: #f6f7f7;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.lwd-chart-toggle a.is-active {
+	background: #2271b1;
+	color: #fff;
+}
+
+.lwd-chart {
+	display: flex;
+	align-items: flex-end;
+	gap: 10px;
+	min-height: 220px;
+	padding-top: 10px;
+}
+
+.lwd-chart-bar-wrap {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+	min-width: 0;
+}
+
+.lwd-chart-bar {
+	width: 100%;
+	max-width: 48px;
+	border-radius: 6px 6px 2px 2px;
+	background: linear-gradient(180deg, #4f8cff 0%, #6b4eff 100%);
+	min-height: 4px;
+	transition: height 0.2s ease;
+}
+
+.lwd-chart-label {
+	font-size: 11px;
+	color: #646970;
+	text-align: center;
+}
+
+.lwd-chart-empty {
+	color: #646970;
+	font-style: italic;
+	padding: 40px 0;
+	text-align: center;
+	width: 100%;
+}
+
+.lwd-lists-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 20px;
+}
+
+.lwd-list-panel .lwd-badge {
+	display: inline-block;
+	padding: 3px 8px;
+	border-radius: 999px;
+	font-size: 11px;
+	font-weight: 600;
+}
+
+.lwd-badge--blue { background: #e8f0fe; color: #1a56db; }
+.lwd-badge--green { background: #e7f8ea; color: #0f7b2d; }
+
+.lwd-ranked-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.lwd-ranked-list li {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 12px 0;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.lwd-ranked-list li:last-child {
+	border-bottom: none;
+}
+
+.lwd-rank {
+	width: 24px;
+	height: 24px;
+	border-radius: 50%;
+	background: #f0f0f1;
+	color: #50575e;
+	font-size: 12px;
+	font-weight: 700;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex-shrink: 0;
+}
+
+.lwd-ranked-main {
+	flex: 1;
+	min-width: 0;
+}
+
+.lwd-ranked-main strong {
+	display: block;
+	font-size: 14px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.lwd-ranked-main span {
+	display: block;
+	font-size: 12px;
+	color: #646970;
+}
+
+.lwd-ranked-count {
+	font-size: 15px;
+	font-weight: 700;
+	color: #2271b1;
+	flex-shrink: 0;
+}
+
+.lwd-ranked-count--green {
+	color: #008a20;
+}

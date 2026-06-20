@@ -1,0 +1,253 @@
+# Hungarian translation for LW Download
+msgid ""
+msgstr ""
+"Project-Id-Version: LW Download 1.0.0\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: vs-download\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Tools"
+msgstr "Eszközök"
+
+msgid "Environment"
+msgstr "Környezet"
+
+msgid "Migration"
+msgstr "Migráció"
+
+msgid "LW Download Tools"
+msgstr "LW Download eszközök"
+
+msgid "Run environment checks"
+msgstr "Környezeti ellenőrzések futtatása"
+
+msgid "LW Download:"
+msgstr "LW Download:"
+
+msgid "Please run environment checks to verify this host is compatible."
+msgstr "Futtasd le a környezeti ellenőrzéseket, hogy a tárhely kompatibilis legyen."
+
+msgid "Open Tools → Environment"
+msgstr "Eszközök → Környezet megnyitása"
+
+msgid "Import from Download Monitor"
+msgstr "Importálás Download Monitorból"
+
+msgid "Settings"
+msgstr "Beállítások"
+
+msgid "Reports"
+msgstr "Riportok"
+
+msgid "Downloads"
+msgstr "Letöltések"
+
+msgid "PHP version"
+msgstr "PHP verzió"
+
+msgid "Composer autoloader"
+msgstr "Composer autoloader"
+
+msgid "Download log table"
+msgstr "Letöltési napló tábla"
+
+msgid "WP-Cron"
+msgstr "WP-Cron"
+
+msgid "Download Monitor"
+msgstr "Download Monitor"
+
+msgid "Outbound HTTP"
+msgstr "Kimenő HTTP"
+
+msgid "REST API"
+msgstr "REST API"
+
+msgid "PHP memory limit"
+msgstr "PHP memórialimit"
+
+msgid "OK"
+msgstr "Rendben"
+
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+msgid "Failed"
+msgstr "Sikertelen"
+
+msgid "Pass:"
+msgstr "Sikeres:"
+
+msgid "Warnings:"
+msgstr "Figyelmeztetések:"
+
+msgid "Failed:"
+msgstr "Sikertelen:"
+
+msgid "Check"
+msgstr "Ellenőrzés"
+
+msgid "Status"
+msgstr "Állapot"
+
+msgid "Details"
+msgstr "Részletek"
+
+msgid "Recommendation"
+msgstr "Javaslat"
+
+msgid "Verify PHP, database, cron, outbound HTTP, and conflicts before using downloads or migration on this host."
+msgstr "Ellenőrizd a PHP-t, adatbázist, cront, kimenő HTTP-t és ütközéseket, mielőtt letöltéseket vagy migrációt használsz."
+
+msgid "No results yet. Click \"Run environment checks\"."
+msgstr "Még nincs eredmény. Kattints a „Környezeti ellenőrzések futtatása” gombra."
+
+msgid "Running checks…"
+msgstr "Ellenőrzések futnak…"
+
+msgid "Health check failed."
+msgstr "Az egészségügyi ellenőrzés sikertelen."
+
+msgid "Request failed."
+msgstr "A kérés sikertelen."
+
+msgid "Last run: %s"
+msgstr "Utolsó futás: %s"
+
+msgid "Migrate downloads, file URLs, versions, categories, tags, and download statistics from Download Monitor into LW Download."
+msgstr "Letöltések, fájl URL-ek, verziók, kategóriák, címkék és statisztikák átvitele a Download Monitorból."
+
+msgid "Detected data"
+msgstr "Észlelt adatok"
+
+msgid "Import"
+msgstr "Importálás"
+
+msgid "Autoloader not found. Please run \"composer install\" in the plugin directory."
+msgstr "Az autoloader hiányzik. Futtasd a „composer install” parancsot a bővítmény mappájában."
+
+msgid "Permission denied."
+msgstr "Hozzáférés megtagadva."
+
+msgid "Download not found."
+msgstr "A letöltés nem található."
+
+msgid "Add New Download"
+msgstr "Új letöltés"
+
+msgid "All Downloads"
+msgstr "Összes letöltés"
+
+msgid "Import / Export"
+msgstr "Import / Export"
+
+msgid "Export (JSON)"
+msgstr "Export (JSON)"
+
+msgid "Download all LW Download entries as a JSON file for backup or migration to another site."
+msgstr "Az összes LW Download bejegyzés letöltése JSON fájlként biztonsági mentéshez vagy másik oldalra történő áttelepítéshez."
+
+msgid "Include download logs (statistics)"
+msgstr "Letöltési naplók (statisztikák) mellékelése"
+
+msgid "Download export file"
+msgstr "Export fájl letöltése"
+
+msgid "Import (JSON)"
+msgstr "Import (JSON)"
+
+msgid "Upload a JSON export from another WordPress site."
+msgstr "JSON export feltöltése egy másik WordPress oldalról."
+
+msgid "Skip downloads with an existing slug (recommended)"
+msgstr "Meglévő slug-gal rendelkező letöltések kihagyása (ajánlott)"
+
+msgid "URL search & replace (optional)"
+msgstr "URL keresés és csere (opcionális)"
+
+msgid "Upload and import JSON"
+msgstr "JSON feltöltése és importálása"
+
+msgid "Export file downloaded."
+msgstr "Az export fájl letöltve."
+
+msgid "Invalid JSON file."
+msgstr "Érvénytelen JSON fájl."
+
+msgid "Importing…"
+msgstr "Importálás…"
+
+msgid "Invalid import file: downloads array missing."
+msgstr "Érvénytelen import fájl: a letöltések tömbje hiányzik."
+
+msgid "Import completed. %1$d imported, %2$d skipped."
+msgstr "Import kész. %1$d importálva, %2$d kihagyva."
+
+msgid "Invalid import payload."
+msgstr "Érvénytelen import adat."
+
+msgid "Dashboard Overview"
+msgstr "Áttekintő irányítópult"
+
+msgid "Last 7 days"
+msgstr "Utolsó 7 nap"
+
+msgid "Last 30 days"
+msgstr "Utolsó 30 nap"
+
+msgid "Last 90 days"
+msgstr "Utolsó 90 nap"
+
+msgid "Last 365 days"
+msgstr "Utolsó 365 nap"
+
+msgid "Total Downloads"
+msgstr "Összes letöltés"
+
+msgid "Unique Users"
+msgstr "Egyedi felhasználók"
+
+msgid "Logged-in Rate"
+msgstr "Bejelentkezett arány"
+
+msgid "Active Files"
+msgstr "Aktív fájlok"
+
+msgid "Downloads Over Time"
+msgstr "Letöltések időben"
+
+msgid "Weekly"
+msgstr "Heti"
+
+msgid "Monthly"
+msgstr "Havi"
+
+msgid "No download activity in this period."
+msgstr "Nincs letöltési aktivitás ebben az időszakban."
+
+msgid "Top Downloads"
+msgstr "Legnépszerűbb letöltések"
+
+msgid "This period"
+msgstr "Ez az időszak"
+
+msgid "Most Active Users"
+msgstr "Legaktívabb felhasználók"
+
+msgid "Top 5"
+msgstr "Top 5"
+
+msgid "No data found."
+msgstr "Nincs adat."
+
+msgid "(deleted)"
+msgstr "(törölve)"
+
+msgid "User #%d"
+msgstr "Felhasználó #%d"
+
+msgid "Guest"
+msgstr "Vendég"
