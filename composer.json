@@ -1,0 +1,45 @@
+{
+  "name": "verysimple/vs-download",
+  "description": "Very Simple download manager for WordPress.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "WPSuli",
+      "homepage": "https://wpsuli.hu"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "verysimple/vs-core": "^1.0"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/bekreative/vs-core"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Vs\\Download\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpcompatibility/phpcompatibility-wp": "^2.1",
+    "squizlabs/php_codesniffer": "^3.0",
+    "wp-coding-standards/wpcs": "^3.0"
+  },
+  "scripts": {
+    "i18n:compile": "python3 bin/compile-translations.py",
+    "phpcs": "phpcs",
+    "phpcbf": "phpcbf",
+    "package": "bash bin/package.sh"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
